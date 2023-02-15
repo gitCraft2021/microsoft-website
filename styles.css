@@ -1,0 +1,31 @@
+:root {
+    --green: #00FF00;
+    --white: #fff;
+    --black: #000;
+}
+
+body {
+    background: var(--bg);
+    color: var(--fontColor);
+    font-family: helvetica;
+}
+ul {
+    font-family: helvetica;
+}
+li {
+    list-style: circle;
+}
+.list {
+    list-style: square;
+}
+#msg {
+    font-family: monospace;
+}
+.light-theme {
+    --bg: var(--green);
+    --fontColor: var(--black);
+}
+.darl-theme {
+    --bg: var(--black);
+    --fontColor: var(--green);
+}
